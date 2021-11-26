@@ -1,0 +1,67 @@
+body {
+ background-image:url("images/islam3.png");
+ background-size:contain;
+}
+  span {
+   padding: 15px;
+   border-radius:20% ;
+   background: rgb(14, 129, 52);
+   font-weight: bold;
+   font-size: xx-large;
+   display: inline-flex;
+   flex-wrap: nowrap;
+   -ms-flex-line-pack: center;
+   align-content: center;
+   white-space: nowrap;
+   color: white;
+}
+.days {
+    background-color: purple;
+}
+.hours {
+    background-color: rgba(240, 236, 11, 0.112);
+}
+.seconds {
+    background-color:rgb(34, 27, 14);
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+    box-sizing: border-box;
+    border-radius:15px ;
+   background: rgba(209, 23, 23, 0.13);
+   width: 50%;
+   position:absolute;
+  margin-left: 20%;
+  padding: 20px;
+  position: relative;
+  width: 600px;
+  animation: up-and-down 5s linear infinite;
+}
+
+section {
+    font-weight: bold;
+    border-radius: 50%;
+    font-size:xx-large;
+    text-align: center;
+    text-transform: capitalize;
+}
+svg {
+    width:100px;
+}
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+   color: rgb(59, 149, 209);
+}
+@keyframes up-and-down {
+    0%,
+    100% {
+      top: 0;
+    }
+    50% {
+      top: -50px;
+    }
+  }
